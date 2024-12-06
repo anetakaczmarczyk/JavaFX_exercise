@@ -245,6 +245,7 @@ public class MainController {
             classContainer.classes.get(selectedItem).removeTeacher(selectedTeacher);
             selectedTeacher = null;
             changeGroupsData();
+            teacherTable.refresh();
         }
     }
 
